@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h1>Create An Account</h1>
+    <form>
+      First name <input type="text" placeholder="First name" required> </br>
+      Last name <input type="text" placeholder="Last name" required> </br>
+      Email <input type="email" placeholder="Email" required> </br>
+      Username name <input type="text" placeholder="First name" required> </br>
+      Password <input type="password" placeholder="Password" maxlength="10" required> </br>
+      Birth Date <input type="date"> </br>
+      How happy are you? <input type="range" min="0" max="100" list="tickmarks" required> </br>
+      <datalist id="tickmarks">
+        <option value="0"></option>
+        <option value="10"></option>
+        <option value="20"></option>
+        <option value="30"></option>
+        <option value="40"></option>
+        <option value="50"></option>
+        <option value="60"></option>
+        <option value="70"></option>
+        <option value="80"></option>
+        <option value="90"></option>
+        <option value="100"></option>
+      </datalist>
+      What is your fav. color? <input type="color" required> </br>
+      <input type="submit" value="Create Account" required>
+  </body>
+</html>
