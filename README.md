@@ -1,2 +1,3 @@
 # Kokoatalk_Challenge_1
-Created with CodeSandbox
+
+Kokoatalk cloning app challenge code assignment #1.
